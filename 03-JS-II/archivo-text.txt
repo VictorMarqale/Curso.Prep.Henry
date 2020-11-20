@@ -1,0 +1,31 @@
+For:
+Es un bucle, en donde evalua expresiones una y otra vez hasta que se obtiene
+lo que se necesita o se puede detener despues de un lapso de tiempo.
+Compone una forma de ordenarse, la cual primero va la palabra "for", seguido 
+de parentesis, y por ultimo de apertura y cierre de llaves.
+Dentro de estos parentesis se colocan 3 cosas: 
+1) Declarar una variable: establer una variable antes de que el bucle comience ;
+2) Expresion condicional: define la condicion para que el bucle for se ejecute.
+si el bucle retorna verdadero, el bucle comienza una y otra vez, si retorna falso,
+el bucle termina;
+3) Incremento de la variable (incrementa el valor cada vez que el bucle sea ejecutado).
+
+ejemplo : for (var i = 0; i <5; i++){
+            return i;
+            }
+
+    La variable "i" es igual al 0, por lo tanto mientra si "i" es menor a 5 sigue
+    funcionando el bucle hasta que llegue a 5, y el i++ hace que se siga sumando un 
+    numero a i cada vez que termina un bucle.
+
+
+
+Operadores booleano o logicos evaluan la expresiones y retorna en verdadero o false,
+podemos encontrar:
+
+&& (significa "y") retorna verdadero, si ambos operadores son verdadero. 
+
+|| (significa "o") retorna verdadero, si uno de los operadores es verdadero.
+
+! (significa "no") retorna verdadero, si el operador es falso y falso, 
+si el operador es verdadero.
